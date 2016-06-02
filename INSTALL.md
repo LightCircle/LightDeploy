@@ -23,7 +23,7 @@
 ---
 
 | No. | 类别 | CPU | MEMORY | HDD | NETWORK | 说明 |
-|---|
+|---|---|---|---|---|---|---|
 | 1 | AP | 2Core | 4G | 20GB | 1M | 应用程序服务器 |
 | 2 | LB | 2Core | 4G | 20GB | 5M | 负载均衡服务器 |
 | 3 | Cache | 2Core | 4G | 20GB | 1M | 缓存服务器 |
@@ -37,14 +37,14 @@
 #### 2.1. 操作系统
 
 | 名称 | 版本 | 内核 | 说明 |
-|---|
+|---|---|---|---|
 | ContOS | 7.x | > 3.10 | 64-bit |
 | Red Hat Enterprise Linux | 7.x | > 3.10 | 64-bit |
 
 #### 2.2. Container要求
 
 | 名称 | Tag | 描述 | 使用的中间件 |
-|---|
+|---|---|---|---|
 | docker.alphabets.cn/data | 0.0.1 | 数据卷 |  |
 | docker.alphabets.cn/light | 1.3.1 | Light平台内核 | light-core 0.2.6 |
 | docker.alphabets.cn/mongo-alone | 0.0.1 | 数据库 单服务器版 | MongoDB 3.0.4 |
@@ -54,7 +54,7 @@
 #### 2.3. Runtime要求
 
 | 名称 | Tag | 描述 |
-|---|
+|---|---|---|
 | docker.alphabets.cn/shoteyesxibei | latest | 应用程序 - 巡店系统 |
 | docker.alphabets.cn/admin1.3.1 | latest | 应用程序 - 管理界面 |
 
@@ -166,7 +166,7 @@ $ uname -r
 - AP使用的系统资源
 
     | 项目 | 值 | |
-    |---|
+    |---|---|---|
     | 端口 | 20000 | 管理界面 实例1 |
     | 端口 | 20001 | 管理界面 实例2 |
     | 端口 | 20100 | 应用程序 实例1 |
